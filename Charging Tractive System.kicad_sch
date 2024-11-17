@@ -1,5 +1,895 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3ff09eae-d3c8-46ca-b652-20f4f82d766c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Charging Tractive System:HK-LF-540-12"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HK-LF-540-12"
+				(at 7.874 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HK-LF-540-12_0_1"
+				(rectangle
+					(start 0 0)
+					(end 26.67 -43.18)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HK-LF-540-12_1_1"
+				(text "A\n"
+					(at 20.574 -6.858 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "B"
+					(at 20.574 -20.066 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "C"
+					(at 20.32 -39.624 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 -13.97 0)
+					(length 2.54)
+					(name "12V5A_Output_+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 -16.51 0)
+					(length 2.54)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 -19.05 0)
+					(length 2.54)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -34.29 0)
+					(length 2.54)
+					(name "Earth_Line"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 -26.67 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 -21.59 0)
+					(length 2.54)
+					(name "HVIL_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 -24.13 0)
+					(length 2.54)
+					(name "HVIL_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 -39.37 0)
+					(length 2.54)
+					(name "HVIL_Signal_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 -6.35 0)
+					(length 2.54)
+					(name "HVIL_Signal_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 -41.91 0)
+					(length 2.54)
+					(name "HVIL_Signal_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 -8.89 0)
+					(length 2.54)
+					(name "HVIL_Signal_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "HV_Output_+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name "HV_Output_-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -36.83 0)
+					(length 2.54)
+					(name "Live_Line"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -31.75 0)
+					(length 2.54)
+					(name "Null_Line"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_Push_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Push_Open"
+				(at 0 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, push-to-open, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-closed pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_Open_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy 2.54 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.635) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_Push_Open_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 76.2 107.95) (xy 156.21 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0e1185-3cde-49dc-9759-bc96005ed867")
+	)
+	(wire
+		(pts
+			(xy 153.67 125.73) (xy 156.21 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d8d5dc-c046-442d-99d5-b2bc9eae7e4d")
+	)
+	(wire
+		(pts
+			(xy 78.74 135.89) (xy 156.21 135.89)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "475d9479-ab21-4960-a79b-8aeaec8ff696")
+	)
+	(wire
+		(pts
+			(xy 76.2 102.87) (xy 156.21 102.87)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "4f44b993-de09-49c0-9b55-38b17bfba200")
+	)
+	(wire
+		(pts
+			(xy 76.2 118.11) (xy 156.21 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "525c49a7-13de-4a49-8363-30f0d5aa7747")
+	)
+	(wire
+		(pts
+			(xy 156.21 140.97) (xy 137.16 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5790d5f0-2910-4481-90b2-e34c3194829e")
+	)
+	(wire
+		(pts
+			(xy 76.2 120.65) (xy 156.21 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68bbd30a-37a2-45c9-8850-4b8c8a5bcd04")
+	)
+	(wire
+		(pts
+			(xy 76.2 133.35) (xy 76.2 158.75)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "693d481a-2ff1-45af-893f-8a5a578656c7")
+	)
+	(wire
+		(pts
+			(xy 76.2 105.41) (xy 156.21 105.41)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "7b2fdb03-9e2a-46bd-b921-6e1686110ba5")
+	)
+	(wire
+		(pts
+			(xy 81.28 138.43) (xy 156.21 138.43)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "9fb28d32-9d35-4a3d-b9f5-9d1338b39b02")
+	)
+	(wire
+		(pts
+			(xy 78.74 135.89) (xy 78.74 158.75)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "a01cc55b-c013-49b1-9c53-cbea9bd306b8")
+	)
+	(wire
+		(pts
+			(xy 147.32 143.51) (xy 156.21 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6a79610-b0cf-47ee-a1b3-1ef1d2c15431")
+	)
+	(wire
+		(pts
+			(xy 76.2 133.35) (xy 156.21 133.35)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "b1d539dd-ae21-4ef6-9f12-3386fc95f5d1")
+	)
+	(wire
+		(pts
+			(xy 153.67 123.19) (xy 153.67 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf57a0a5-b3aa-41b8-aeef-f686fbf88eaa")
+	)
+	(wire
+		(pts
+			(xy 137.16 140.97) (xy 137.16 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f01d7c-05cb-486a-91e1-24a94f680d64")
+	)
+	(wire
+		(pts
+			(xy 156.21 123.19) (xy 153.67 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf18d66d-a80f-41b2-b3cb-7f2157bd5865")
+	)
+	(wire
+		(pts
+			(xy 81.28 138.43) (xy 81.28 158.75)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "cf9d729a-16c5-4729-9ab5-f1f9ec4f5fc7")
+	)
+	(wire
+		(pts
+			(xy 76.2 110.49) (xy 156.21 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0371225-2a6d-4924-bca7-256880594921")
+	)
+	(label "HV Cable Wire Size: 8 AWG"
+		(at 144.78 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87de6f6b-5876-438d-a893-1f1e5073cb90")
+	)
+	(label "AC Cable Wire Size"
+		(at 144.78 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dab27054-d060-4a6f-9de2-a59b653b792d")
+	)
+	(symbol
+		(lib_id "Charging Tractive System:HK-LF-540-12")
+		(at 158.75 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99b46b06-78ff-4638-8801-73c24b320257")
+		(property "Reference" "HK-LF-540-12"
+			(at 186.69 122.5549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 186.69 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "0e62fbb5-6fd4-4bec-a136-188a1e478282")
+		)
+		(pin ""
+			(uuid "d573b518-08bb-44d4-9acf-671cd828165b")
+		)
+		(pin ""
+			(uuid "009ee096-b484-4742-840c-3d2a951af23c")
+		)
+		(pin ""
+			(uuid "ba1efbe8-f983-41b2-ac54-737e4e75430f")
+		)
+		(pin ""
+			(uuid "f260feb5-ca05-4da3-8b65-b317e3521185")
+		)
+		(pin ""
+			(uuid "79185fab-1a67-42a1-9140-53128393c71d")
+		)
+		(pin ""
+			(uuid "459de586-dbce-43e9-9bf0-0909dca20393")
+		)
+		(pin ""
+			(uuid "36f51fc3-5a79-4618-a6b5-5bf413accbe0")
+		)
+		(pin ""
+			(uuid "6e80ad3f-72c6-408a-98e3-4373313f450f")
+		)
+		(pin ""
+			(uuid "22f8ecb6-d7d7-4b2e-bdb4-256def04a8a9")
+		)
+		(pin ""
+			(uuid "1106c584-8073-458c-91bf-568959e18bb3")
+		)
+		(pin ""
+			(uuid "527ba8f3-0c7e-4386-83db-6606b17948fb")
+		)
+		(pin ""
+			(uuid "a3008ef7-6344-44fb-bff4-5686b8db80fb")
+		)
+		(pin ""
+			(uuid "dcba3891-2f29-4ef6-a75d-a354a7ade2f9")
+		)
+		(pin ""
+			(uuid "d4e3eece-64f0-4c9b-a3e2-f670dd3b1a83")
+		)
+		(instances
+			(project ""
+				(path "/3ff09eae-d3c8-46ca-b652-20f4f82d766c"
+					(reference "HK-LF-540-12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Open")
+		(at 142.24 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1b72677-f38d-4d8a-aa87-554c4a079434")
+		(property "Reference" "SW1"
+			(at 142.24 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_Open"
+			(at 142.24 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 142.24 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f856ca2-2537-4f30-a221-24eb3eb73303")
+		)
+		(pin "1"
+			(uuid "d47d85e3-43f9-47f7-a0cd-9ce71f055587")
+		)
+		(instances
+			(project ""
+				(path "/3ff09eae-d3c8-46ca-b652-20f4f82d766c"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
