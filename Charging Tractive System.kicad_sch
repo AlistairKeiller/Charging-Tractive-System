@@ -1576,7 +1576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99b46b06-78ff-4638-8801-73c24b320257")
-		(property "Reference" "HK-LF-540-12"
+		(property "Reference" "HK-LF-312-20"
 			(at 186.69 122.5549 0)
 			(effects
 				(font
@@ -1669,7 +1669,7 @@
 		(instances
 			(project ""
 				(path "/3ff09eae-d3c8-46ca-b652-20f4f82d766c"
-					(reference "HK-LF-540-12")
+					(reference "HK-LF-312-20")
 					(unit 1)
 				)
 			)
