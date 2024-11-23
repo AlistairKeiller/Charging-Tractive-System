@@ -2465,7 +2465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "854d6c05-3a3c-42d5-b36a-93335ac4dac0")
-		(property "Reference" "Orion1"
+		(property "Reference" "Orion2"
 			(at 177.8 132.7149 0)
 			(effects
 				(font
@@ -2528,7 +2528,7 @@
 		(instances
 			(project ""
 				(path "/3ff09eae-d3c8-46ca-b652-20f4f82d766c"
-					(reference "Orion1")
+					(reference "Orion2")
 					(unit 1)
 				)
 			)
