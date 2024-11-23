@@ -943,6 +943,40 @@
 		(color 0 0 0 0)
 		(uuid "176987ff-89d0-4f4d-bf8d-2e63ad88b1ca")
 	)
+	(junction
+		(at 132.08 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a303e2a-6be1-47dc-9767-11a698307228")
+	)
+	(junction
+		(at 120.65 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "669f1305-b973-4542-81f4-bae70aa779ec")
+	)
+	(junction
+		(at 130.81 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0a79f3d-b81d-41dc-b50c-54e0d57d148a")
+	)
+	(junction
+		(at 119.38 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d63f5da0-8867-4f3a-b22a-93646ad2b48a")
+	)
+	(wire
+		(pts
+			(xy 130.81 105.41) (xy 156.21 105.41)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "15b1a859-7177-40e3-a406-606bf9b685b8")
+	)
 	(wire
 		(pts
 			(xy 154.94 110.49) (xy 156.21 110.49)
@@ -975,13 +1009,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 102.87) (xy 156.21 102.87)
+			(xy 111.76 102.87) (xy 120.65 102.87)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 		)
 		(uuid "4f44b993-de09-49c0-9b55-38b17bfba200")
+	)
+	(wire
+		(pts
+			(xy 132.08 102.87) (xy 156.21 102.87)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "4fc17336-ef1c-4012-8989-050cca2fea3a")
 	)
 	(wire
 		(pts
@@ -992,6 +1036,16 @@
 			(type default)
 		)
 		(uuid "53a889ee-30cf-4f58-b604-024272f2baa1")
+	)
+	(wire
+		(pts
+			(xy 130.81 91.44) (xy 130.81 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "578d6d6a-4bef-4958-a8dd-badd734532c7")
 	)
 	(wire
 		(pts
@@ -1015,6 +1069,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 91.44) (xy 130.81 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6681289f-f623-437e-b9c0-ae47bb701f25")
+	)
+	(wire
+		(pts
 			(xy 129.54 120.65) (xy 156.21 120.65)
 		)
 		(stroke
@@ -1025,13 +1089,33 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 105.41) (xy 156.21 105.41)
+			(xy 120.65 99.06) (xy 120.65 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74fe72b3-6acc-41da-93c0-1f7599f10655")
+	)
+	(wire
+		(pts
+			(xy 111.76 105.41) (xy 119.38 105.41)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 		)
 		(uuid "7b2fdb03-9e2a-46bd-b921-6e1686110ba5")
+	)
+	(wire
+		(pts
+			(xy 119.38 105.41) (xy 130.81 105.41)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "8070ac80-a604-4386-83b5-1883b628704a")
 	)
 	(wire
 		(pts
@@ -1055,6 +1139,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 91.44) (xy 119.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e8550e-edb2-4ba8-a4ed-ad564e6ec9db")
+	)
+	(wire
+		(pts
 			(xy 120.65 115.57) (xy 129.54 115.57)
 		)
 		(stroke
@@ -1062,6 +1156,16 @@
 			(type default)
 		)
 		(uuid "94b50ef3-a2c2-4cea-b8fc-5e71961c8d28")
+	)
+	(wire
+		(pts
+			(xy 132.08 99.06) (xy 132.08 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7bcea7-03ec-4db5-8e41-1199807aa877")
 	)
 	(wire
 		(pts
@@ -1115,6 +1219,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 91.44) (xy 119.38 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba67b289-d77b-4859-8a61-4a6d4644a660")
+	)
+	(wire
+		(pts
 			(xy 153.67 123.19) (xy 153.67 125.73)
 		)
 		(stroke
@@ -1162,6 +1276,16 @@
 			(type default)
 		)
 		(uuid "dcc2c575-9b91-4773-b338-5936d8cd710e")
+	)
+	(wire
+		(pts
+			(xy 120.65 102.87) (xy 132.08 102.87)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "e9fb8cce-8ae3-4551-867f-d8e75cd92fbf")
 	)
 	(label "HV Cable Wire Size: 8 AWG"
 		(at 144.78 93.98 0)
@@ -1424,6 +1548,76 @@
 			(project "Charging Tractive System"
 				(path "/3ff09eae-d3c8-46ca-b652-20f4f82d766c"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 132.08 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "597fab80-d55c-492d-b3be-4dee3b1afe8d")
+		(property "Reference" "15kΩ"
+			(at 134.62 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TSMP1"
+			(at 134.62 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.096 95.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 132.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9200f210-968f-4848-a5c5-0a57e9e2fff5")
+		)
+		(pin "2"
+			(uuid "52c7c8d0-0978-4137-ba96-c60eb1311259")
+		)
+		(instances
+			(project ""
+				(path "/3ff09eae-d3c8-46ca-b652-20f4f82d766c"
+					(reference "15kΩ")
 					(unit 1)
 				)
 			)
@@ -1737,6 +1931,76 @@
 			(project ""
 				(path "/3ff09eae-d3c8-46ca-b652-20f4f82d766c"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 120.65 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf68683c-21b2-4b9d-bd42-5b5b16d41829")
+		(property "Reference" "15kΩ"
+			(at 123.19 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TSMP2"
+			(at 123.19 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.666 95.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 120.65 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccdc2d46-c5fe-433e-b745-9b2c338bc746")
+		)
+		(pin "2"
+			(uuid "f407c4a1-e838-4977-ae06-5a62cc66b67d")
+		)
+		(instances
+			(project "Charging Tractive System"
+				(path "/3ff09eae-d3c8-46ca-b652-20f4f82d766c"
+					(reference "15kΩ")
 					(unit 1)
 				)
 			)
