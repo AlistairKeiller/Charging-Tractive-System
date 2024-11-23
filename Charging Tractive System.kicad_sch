@@ -362,6 +362,159 @@
 				)
 			)
 		)
+		(symbol "Charging Tractive System:Orion_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Orion2"
+				(at 1.524 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Orion_2_0_1"
+				(rectangle
+					(start 0 0)
+					(end 22.86 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Orion_2_1_1"
+				(pin bidirectional line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "Charge_Power"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "Charger_Safety_Enable"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "Orion_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Charging Tractive System:iso175"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1139,44 +1292,44 @@
 		)
 	)
 	(junction
-		(at 127 74.93)
+		(at 127 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1301d68a-599c-4aa2-a8f2-a028ffaddf86")
 	)
 	(junction
-		(at 127 67.31)
+		(at 127 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "176987ff-89d0-4f4d-bf8d-2e63ad88b1ca")
 	)
 	(junction
-		(at 138.43 54.61)
+		(at 138.43 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a303e2a-6be1-47dc-9767-11a698307228")
 	)
 	(junction
-		(at 127 54.61)
+		(at 127 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "669f1305-b973-4542-81f4-bae70aa779ec")
 	)
 	(junction
-		(at 137.16 57.15)
+		(at 137.16 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0a79f3d-b81d-41dc-b50c-54e0d57d148a")
 	)
 	(junction
-		(at 125.73 57.15)
+		(at 125.73 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d63f5da0-8867-4f3a-b22a-93646ad2b48a")
 	)
 	(wire
 		(pts
-			(xy 137.16 57.15) (xy 162.56 57.15)
+			(xy 137.16 45.72) (xy 162.56 45.72)
 		)
 		(stroke
 			(width 0.508)
@@ -1186,7 +1339,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 62.23) (xy 162.56 62.23)
+			(xy 161.29 50.8) (xy 162.56 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1196,7 +1349,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 77.47) (xy 162.56 77.47)
+			(xy 160.02 66.04) (xy 162.56 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1206,7 +1359,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 59.69) (xy 161.29 59.69)
+			(xy 162.56 48.26) (xy 161.29 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1216,7 +1369,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 121.92) (xy 163.83 121.92)
+			(xy 119.38 102.87) (xy 163.83 102.87)
 		)
 		(stroke
 			(width 0.508)
@@ -1226,7 +1379,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 54.61) (xy 127 54.61)
+			(xy 118.11 43.18) (xy 127 43.18)
 		)
 		(stroke
 			(width 0.508)
@@ -1236,7 +1389,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 54.61) (xy 162.56 54.61)
+			(xy 138.43 43.18) (xy 162.56 43.18)
 		)
 		(stroke
 			(width 0.508)
@@ -1246,7 +1399,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 69.85) (xy 162.56 69.85)
+			(xy 135.89 58.42) (xy 162.56 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1256,7 +1409,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 43.18) (xy 137.16 57.15)
+			(xy 137.16 31.75) (xy 137.16 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1266,7 +1419,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 92.71) (xy 143.51 92.71)
+			(xy 162.56 81.28) (xy 143.51 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1276,7 +1429,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 124.46) (xy 163.83 124.46)
+			(xy 119.38 105.41) (xy 163.83 105.41)
 		)
 		(stroke
 			(width 0.508)
@@ -1286,7 +1439,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 74.93) (xy 127 74.93)
+			(xy 119.38 63.5) (xy 127 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1296,7 +1449,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 43.18) (xy 137.16 43.18)
+			(xy 138.43 31.75) (xy 137.16 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1306,7 +1459,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 72.39) (xy 162.56 72.39)
+			(xy 135.89 60.96) (xy 162.56 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1316,7 +1469,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 50.8) (xy 127 54.61)
+			(xy 127 39.37) (xy 127 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1326,7 +1479,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 57.15) (xy 125.73 57.15)
+			(xy 118.11 45.72) (xy 125.73 45.72)
 		)
 		(stroke
 			(width 0.508)
@@ -1336,7 +1489,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 57.15) (xy 137.16 57.15)
+			(xy 125.73 45.72) (xy 137.16 45.72)
 		)
 		(stroke
 			(width 0.508)
@@ -1346,7 +1499,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 74.93) (xy 135.89 74.93)
+			(xy 127 63.5) (xy 135.89 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1356,7 +1509,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 59.69) (xy 161.29 62.23)
+			(xy 161.29 48.26) (xy 161.29 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1366,7 +1519,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 43.18) (xy 125.73 43.18)
+			(xy 127 31.75) (xy 125.73 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1376,7 +1529,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 67.31) (xy 135.89 67.31)
+			(xy 127 55.88) (xy 135.89 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1386,7 +1539,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 50.8) (xy 138.43 54.61)
+			(xy 138.43 39.37) (xy 138.43 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1396,7 +1549,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 90.17) (xy 162.56 90.17)
+			(xy 118.11 78.74) (xy 162.56 78.74)
 		)
 		(stroke
 			(width 0.508)
@@ -1406,7 +1559,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 95.25) (xy 162.56 95.25)
+			(xy 153.67 83.82) (xy 162.56 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1416,7 +1569,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 127) (xy 163.83 127)
+			(xy 119.38 107.95) (xy 163.83 107.95)
 		)
 		(stroke
 			(width 0.508)
@@ -1426,7 +1579,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 67.31) (xy 135.89 69.85)
+			(xy 135.89 55.88) (xy 135.89 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1436,7 +1589,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 87.63) (xy 162.56 87.63)
+			(xy 118.11 76.2) (xy 162.56 76.2)
 		)
 		(stroke
 			(width 0.508)
@@ -1446,7 +1599,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 85.09) (xy 162.56 85.09)
+			(xy 118.11 73.66) (xy 162.56 73.66)
 		)
 		(stroke
 			(width 0.508)
@@ -1456,7 +1609,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 43.18) (xy 125.73 57.15)
+			(xy 125.73 31.75) (xy 125.73 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1466,7 +1619,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 74.93) (xy 160.02 77.47)
+			(xy 160.02 63.5) (xy 160.02 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1476,7 +1629,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 92.71) (xy 143.51 95.25)
+			(xy 143.51 81.28) (xy 143.51 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1486,7 +1639,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 67.31) (xy 127 67.31)
+			(xy 119.38 55.88) (xy 127 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1496,7 +1649,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 74.93) (xy 160.02 74.93)
+			(xy 162.56 63.5) (xy 160.02 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1506,7 +1659,7 @@
 	)
 	(polyline
 		(pts
-			(xy 284.48 113.03) (xy 13.97 113.03)
+			(xy 284.48 93.98) (xy 13.97 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1516,7 +1669,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 74.93) (xy 135.89 72.39)
+			(xy 135.89 63.5) (xy 135.89 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1526,7 +1679,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 54.61) (xy 138.43 54.61)
+			(xy 127 43.18) (xy 138.43 43.18)
 		)
 		(stroke
 			(width 0.508)
@@ -1536,7 +1689,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 129.54) (xy 163.83 129.54)
+			(xy 119.38 110.49) (xy 163.83 110.49)
 		)
 		(stroke
 			(width 0.508)
@@ -1545,7 +1698,7 @@
 		(uuid "f5a3a3bb-b4e2-4345-ae2a-f0e1900178a5")
 	)
 	(label "HV Cable Wire Size: 8 AWG"
-		(at 151.13 45.72 0)
+		(at 151.13 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1556,7 +1709,7 @@
 		(uuid "87de6f6b-5876-438d-a893-1f1e5073cb90")
 	)
 	(label "Car side"
-		(at 207.01 118.11 0)
+		(at 207.01 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1567,7 +1720,7 @@
 		(uuid "97e03206-cdf3-4d93-8303-cb867a076a5c")
 	)
 	(label "Charging side"
-		(at 205.74 109.22 0)
+		(at 205.74 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1578,7 +1731,7 @@
 		(uuid "a3d25115-3b8a-44a0-b94f-a3021a27041c")
 	)
 	(label "AC Cable Wire Size: 8 AWG"
-		(at 151.13 48.26 0)
+		(at 151.13 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1590,7 +1743,7 @@
 	)
 	(global_label "Battery"
 		(shape input)
-		(at 107.95 128.27 0)
+		(at 107.95 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1600,7 +1753,7 @@
 		)
 		(uuid "599ff8e0-fcec-4bf2-a096-488daa58543d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.648 128.27 0)
+			(at 117.648 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1612,7 +1765,7 @@
 	)
 	(global_label "HVBattery"
 		(shape input)
-		(at 105.41 123.19 0)
+		(at 105.41 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1622,7 +1775,7 @@
 		)
 		(uuid "70576c0e-03c8-4f61-a37c-3ee19096ac76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.5271 123.19 0)
+			(at 117.5271 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1634,7 +1787,7 @@
 	)
 	(global_label "AC inlet"
 		(shape input)
-		(at 105.41 87.63 0)
+		(at 105.41 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1644,7 +1797,7 @@
 		)
 		(uuid "860d7d33-52e5-4154-b8ee-025a79df9cf2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.9547 87.63 0)
+			(at 115.9547 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1656,7 +1809,7 @@
 	)
 	(global_label "HVBattery"
 		(shape input)
-		(at 104.14 55.88 0)
+		(at 104.14 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1666,7 +1819,7 @@
 		)
 		(uuid "9cc515ff-b582-46c7-b675-efd11c88f881")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.2571 55.88 0)
+			(at 116.2571 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,17 +1830,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+9V")
-		(at 119.38 67.31 90)
+		(lib_id "power:GNDREF")
+		(at 151.13 138.43 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2023f7ea-041a-41ff-9e92-8ee42e53a475")
-		(property "Reference" "#PWR03"
-			(at 123.19 67.31 0)
+		(uuid "000346e4-5299-43cf-b123-1dd8ab088f0d")
+		(property "Reference" "#PWR011"
+			(at 144.78 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,17 +1848,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "CANH"
-			(at 115.57 67.3099 90)
+		(property "Value" "Orion GND"
+			(at 147.32 138.4299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 67.31 0)
+			(at 151.13 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,7 +1867,74 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 67.31 0)
+			(at 151.13 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 151.13 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a94b13e-00e8-48fb-9788-66a6fe9552a6")
+		)
+		(instances
+			(project "Charging Tractive System"
+				(path "/3ff09eae-d3c8-46ca-b652-20f4f82d766c"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 151.13 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a379805-2fbb-479e-be33-698184035566")
+		(property "Reference" "#PWR09"
+			(at 154.94 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CANL"
+			(at 147.32 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,7 +1943,74 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 119.38 67.31 0)
+			(at 151.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f69b2c8-f7d0-45cc-b1b7-95bd08203a57")
+		)
+		(instances
+			(project "Charging Tractive System"
+				(path "/3ff09eae-d3c8-46ca-b652-20f4f82d766c"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 119.38 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2023f7ea-041a-41ff-9e92-8ee42e53a475")
+		(property "Reference" "#PWR03"
+			(at 123.19 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CANH"
+			(at 115.57 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 119.38 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1745,7 +2032,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 162.56 67.31 90)
+		(at 162.56 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1753,7 +2040,7 @@
 		(dnp no)
 		(uuid "26abcce8-fba2-4d26-ba6e-734050a1c02c")
 		(property "Reference" "#PWR06"
-			(at 166.37 67.31 0)
+			(at 166.37 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,7 +2049,7 @@
 			)
 		)
 		(property "Value" "Orion Charge Power"
-			(at 164.338 64.77 90)
+			(at 164.338 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1771,7 +2058,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 67.31 0)
+			(at 162.56 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1780,7 +2067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 67.31 0)
+			(at 162.56 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,7 +2076,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 162.56 67.31 0)
+			(at 162.56 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +2098,7 @@
 	)
 	(symbol
 		(lib_id "Charging Tractive System:iso175")
-		(at 166.37 119.38 0)
+		(at 166.37 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1820,7 +2107,7 @@
 		(fields_autoplaced yes)
 		(uuid "350a8e2b-b095-4e32-92b0-85c9eae585d1")
 		(property "Reference" "iso175"
-			(at 176.53 130.1749 0)
+			(at 176.53 111.1249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,7 +2116,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 176.53 132.08 0)
+			(at 176.53 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1838,7 +2125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 119.38 0)
+			(at 166.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1847,7 +2134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 119.38 0)
+			(at 166.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,7 +2143,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 119.38 0)
+			(at 166.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,7 +2186,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 162.56 80.01 270)
+		(at 162.56 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1908,7 +2195,7 @@
 		(fields_autoplaced yes)
 		(uuid "3613decc-74de-48e2-b4b7-e33bdc17d055")
 		(property "Reference" "#PWR05"
-			(at 156.21 80.01 0)
+			(at 156.21 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,7 +2204,7 @@
 			)
 		)
 		(property "Value" "Orion GND"
-			(at 158.75 80.0099 90)
+			(at 158.75 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,7 +2213,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 80.01 0)
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +2222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 80.01 0)
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1944,7 +2231,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 162.56 80.01 0)
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,7 +2253,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 138.43 46.99 0)
+		(at 138.43 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1975,7 +2262,7 @@
 		(fields_autoplaced yes)
 		(uuid "597fab80-d55c-492d-b3be-4dee3b1afe8d")
 		(property "Reference" "15kΩ"
-			(at 140.97 45.7199 0)
+			(at 140.97 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1984,7 +2271,7 @@
 			)
 		)
 		(property "Value" "TSMP1"
-			(at 140.97 48.2599 0)
+			(at 140.97 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,7 +2280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.446 47.244 90)
+			(at 139.446 35.814 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +2289,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 46.99 0)
+			(at 138.43 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,7 +2298,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 138.43 46.99 0)
+			(at 138.43 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2036,7 +2323,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 119.38 74.93 90)
+		(at 119.38 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2045,7 +2332,7 @@
 		(fields_autoplaced yes)
 		(uuid "6eaf5b40-3b24-4e7b-b538-66d978666727")
 		(property "Reference" "#PWR04"
-			(at 123.19 74.93 0)
+			(at 123.19 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2054,7 +2341,7 @@
 			)
 		)
 		(property "Value" "CANL"
-			(at 115.57 74.9299 90)
+			(at 115.57 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2063,7 +2350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 74.93 0)
+			(at 119.38 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2072,7 +2359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 74.93 0)
+			(at 119.38 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,7 +2368,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 119.38 74.93 0)
+			(at 119.38 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2103,7 +2390,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 163.83 132.08 270)
+		(at 163.83 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2112,7 +2399,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b35641e-f178-46b1-8506-93e67c8b04da")
 		(property "Reference" "#PWR01"
-			(at 157.48 132.08 0)
+			(at 157.48 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,7 +2408,7 @@
 			)
 		)
 		(property "Value" "Orion GND"
-			(at 160.02 132.0799 90)
+			(at 160.02 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2417,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 132.08 0)
+			(at 163.83 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +2426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 132.08 0)
+			(at 163.83 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2435,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 163.83 132.08 0)
+			(at 163.83 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2169,8 +2456,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Charging Tractive System:Orion_2")
+		(at 153.67 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "854d6c05-3a3c-42d5-b36a-93335ac4dac0")
+		(property "Reference" "Orion1"
+			(at 177.8 132.7149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 177.8 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "76f2fa29-9ae7-4d9e-bc3b-fa32994e422d")
+		)
+		(pin ""
+			(uuid "a8651706-df7f-42c6-bd19-4373fb88d9ad")
+		)
+		(pin ""
+			(uuid "412e70c6-1d0a-48e6-9031-075bc0e18f6f")
+		)
+		(pin ""
+			(uuid "b706ebd7-5681-4969-a488-939477030266")
+		)
+		(pin ""
+			(uuid "1604b2b6-fe94-4093-a4cd-8b73d2f4306d")
+		)
+		(instances
+			(project ""
+				(path "/3ff09eae-d3c8-46ca-b652-20f4f82d766c"
+					(reference "Orion1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
-		(at 127 71.12 0)
+		(at 127 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2178,7 +2544,7 @@
 		(dnp no)
 		(uuid "9271a40f-1ddd-40d4-bf2e-de30f7032241")
 		(property "Reference" "120Ω"
-			(at 128.524 70.866 0)
+			(at 128.524 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2187,7 +2553,7 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 129.54 72.3899 0)
+			(at 129.54 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2197,7 +2563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.016 71.374 90)
+			(at 128.016 59.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,7 +2572,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 71.12 0)
+			(at 127 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2581,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 127 71.12 0)
+			(at 127 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2240,7 +2606,7 @@
 	)
 	(symbol
 		(lib_id "Charging Tractive System:HK-LF-540-12")
-		(at 165.1 53.34 0)
+		(at 165.1 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2249,7 +2615,7 @@
 		(fields_autoplaced yes)
 		(uuid "99b46b06-78ff-4638-8801-73c24b320257")
 		(property "Reference" "HK-LF-312-20"
-			(at 193.04 74.2949 0)
+			(at 193.04 62.8649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,7 +2624,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 193.04 76.2 0)
+			(at 193.04 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2267,7 +2633,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 50.8 0)
+			(at 170.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,7 +2642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 50.8 0)
+			(at 170.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2651,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 50.8 0)
+			(at 170.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2349,7 +2715,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_Open")
-		(at 148.59 95.25 0)
+		(at 148.59 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2357,7 +2723,7 @@
 		(dnp no)
 		(uuid "a1b72677-f38d-4d8a-aa87-554c4a079434")
 		(property "Reference" "SW1"
-			(at 148.59 98.298 0)
+			(at 148.59 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2365,7 +2731,7 @@
 			)
 		)
 		(property "Value" "SW_Push_Open"
-			(at 148.59 100.838 0)
+			(at 148.59 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2373,7 +2739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 90.17 0)
+			(at 148.59 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2382,7 +2748,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 90.17 0)
+			(at 148.59 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,7 +2757,7 @@
 			)
 		)
 		(property "Description" "Push button switch, push-to-open, generic, two pins"
-			(at 148.59 95.25 0)
+			(at 148.59 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,16 +2782,15 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 163.83 134.62 90)
+		(at 151.13 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b92fc1f2-e4bb-44e8-9bc7-077242238eac")
-		(property "Reference" "#PWR02"
-			(at 167.64 134.62 0)
+		(uuid "a8243acf-44b1-4bc4-a72a-dce8805ede7f")
+		(property "Reference" "#PWR010"
+			(at 154.94 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2433,8 +2798,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "CANH"
-			(at 160.02 134.6199 90)
+		(property "Value" "Orion Charge Power"
+			(at 148.336 134.874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +2808,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 134.62 0)
+			(at 151.13 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +2817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 134.62 0)
+			(at 151.13 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,7 +2826,141 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 163.83 134.62 0)
+			(at 151.13 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f969a037-3c86-43e1-98de-78790f28962d")
+		)
+		(instances
+			(project "Charging Tractive System"
+				(path "/3ff09eae-d3c8-46ca-b652-20f4f82d766c"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 151.13 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acfc1b86-245d-4dd7-b17e-2ab051b37315")
+		(property "Reference" "#PWR08"
+			(at 154.94 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CANH"
+			(at 147.32 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 151.13 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfb332cd-340a-4e1c-87d5-dbbe801e9bcd")
+		)
+		(instances
+			(project "Charging Tractive System"
+				(path "/3ff09eae-d3c8-46ca-b652-20f4f82d766c"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 163.83 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b92fc1f2-e4bb-44e8-9bc7-077242238eac")
+		(property "Reference" "#PWR02"
+			(at 167.64 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CANH"
+			(at 160.02 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 163.83 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,7 +2982,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 163.83 137.16 90)
+		(at 163.83 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2492,7 +2991,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7c5c2fb-ae35-490f-aff2-f4315a998538")
 		(property "Reference" "#PWR07"
-			(at 167.64 137.16 0)
+			(at 167.64 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,7 +3000,7 @@
 			)
 		)
 		(property "Value" "CANL"
-			(at 160.02 137.1599 90)
+			(at 160.02 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2510,7 +3009,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 137.16 0)
+			(at 163.83 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,7 +3018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 137.16 0)
+			(at 163.83 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2528,7 +3027,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 163.83 137.16 0)
+			(at 163.83 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2550,7 +3049,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 127 46.99 0)
+		(at 127 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2559,7 +3058,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf68683c-21b2-4b9d-bd42-5b5b16d41829")
 		(property "Reference" "15kΩ"
-			(at 129.54 45.7199 0)
+			(at 129.54 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +3067,7 @@
 			)
 		)
 		(property "Value" "TSMP2"
-			(at 129.54 48.2599 0)
+			(at 129.54 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2577,7 +3076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.016 47.244 90)
+			(at 128.016 35.814 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +3085,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 46.99 0)
+			(at 127 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2595,7 +3094,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 127 46.99 0)
+			(at 127 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
