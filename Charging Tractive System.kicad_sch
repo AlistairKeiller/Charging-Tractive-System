@@ -1711,7 +1711,7 @@
 		)
 		(uuid b404db2b-8078-44b9-8b75-bbe2409cab7a)
 	)
-	(label "Signal Cable Wire Size: 8 AWG"
+	(label "Signal Cable Wire Size: 20 AWG"
 		(at 151.13 39.37 0)
 		(fields_autoplaced yes)
 		(effects
