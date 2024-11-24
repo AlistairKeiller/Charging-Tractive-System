@@ -1286,28 +1286,26 @@
 		(uuid "176987ff-89d0-4f4d-bf8d-2e63ad88b1ca")
 	)
 	(junction
-		(at 138.43 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a303e2a-6be1-47dc-9767-11a698307228")
-	)
-	(junction
 		(at 127 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "669f1305-b973-4542-81f4-bae70aa779ec")
 	)
 	(junction
-		(at 137.16 45.72)
+		(at 138.43 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d0a79f3d-b81d-41dc-b50c-54e0d57d148a")
+		(uuid "9c693952-8b21-489b-8c46-ba93fd0aa56a")
 	)
-	(junction
-		(at 125.73 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d63f5da0-8867-4f3a-b22a-93646ad2b48a")
+	(wire
+		(pts
+			(xy 138.43 21.59) (xy 138.43 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06d7e2bb-03a0-4b7d-b190-13c74b8dfbb6")
 	)
 	(wire
 		(pts
@@ -1321,7 +1319,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 45.72) (xy 162.56 45.72)
+			(xy 118.11 45.72) (xy 138.43 45.72)
 		)
 		(stroke
 			(width 0.508)
@@ -1371,6 +1369,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 21.59) (xy 127 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a9c7530-bda5-4071-8f1d-f16ddf1232ab")
+	)
+	(wire
+		(pts
 			(xy 106.68 109.22) (xy 151.13 109.22)
 		)
 		(stroke
@@ -1391,13 +1399,23 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 43.18) (xy 162.56 43.18)
+			(xy 127 43.18) (xy 162.56 43.18)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 		)
 		(uuid "4fc17336-ef1c-4012-8989-050cca2fea3a")
+	)
+	(wire
+		(pts
+			(xy 138.43 45.72) (xy 162.56 45.72)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "51897db6-037c-4460-a74b-20dccc429b8e")
 	)
 	(wire
 		(pts
@@ -1408,16 +1426,6 @@
 			(type default)
 		)
 		(uuid "53a889ee-30cf-4f58-b604-024272f2baa1")
-	)
-	(wire
-		(pts
-			(xy 137.16 31.75) (xy 137.16 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "578d6d6a-4bef-4958-a8dd-badd734532c7")
 	)
 	(wire
 		(pts
@@ -1451,16 +1459,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 31.75) (xy 137.16 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6681289f-f623-437e-b9c0-ae47bb701f25")
-	)
-	(wire
-		(pts
 			(xy 135.89 60.96) (xy 162.56 60.96)
 		)
 		(stroke
@@ -1481,26 +1479,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 45.72) (xy 125.73 45.72)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-		)
-		(uuid "7b2fdb03-9e2a-46bd-b921-6e1686110ba5")
-	)
-	(wire
-		(pts
-			(xy 125.73 45.72) (xy 137.16 45.72)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-		)
-		(uuid "8070ac80-a604-4386-83b5-1883b628704a")
-	)
-	(wire
-		(pts
 			(xy 127 63.5) (xy 135.89 63.5)
 		)
 		(stroke
@@ -1511,16 +1489,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 31.75) (xy 125.73 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91e8550e-edb2-4ba8-a4ed-ad564e6ec9db")
-	)
-	(wire
-		(pts
 			(xy 127 55.88) (xy 135.89 55.88)
 		)
 		(stroke
@@ -1528,16 +1496,6 @@
 			(type default)
 		)
 		(uuid "94b50ef3-a2c2-4cea-b8fc-5e71961c8d28")
-	)
-	(wire
-		(pts
-			(xy 138.43 39.37) (xy 138.43 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a7bcea7-03ec-4db5-8e41-1199807aa877")
 	)
 	(wire
 		(pts
@@ -1601,16 +1559,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 31.75) (xy 125.73 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba67b289-d77b-4859-8a61-4a6d4644a660")
-	)
-	(wire
-		(pts
 			(xy 160.02 63.5) (xy 160.02 66.04)
 		)
 		(stroke
@@ -1618,6 +1566,16 @@
 			(type default)
 		)
 		(uuid "bf57a0a5-b3aa-41b8-aeef-f686fbf88eaa")
+	)
+	(wire
+		(pts
+			(xy 138.43 39.37) (xy 138.43 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf74b3cd-ce67-4220-a3b8-787113986314")
 	)
 	(wire
 		(pts
@@ -1678,16 +1636,6 @@
 			(type default)
 		)
 		(uuid "dcc2c575-9b91-4773-b338-5936d8cd710e")
-	)
-	(wire
-		(pts
-			(xy 127 43.18) (xy 138.43 43.18)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-		)
-		(uuid "e9fb8cce-8ae3-4551-867f-d8e75cd92fbf")
 	)
 	(wire
 		(pts
@@ -2303,7 +2251,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSMP1"
+		(property "Value" "TSMP-"
 			(at 140.97 36.8299 0)
 			(effects
 				(font
@@ -3233,7 +3181,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSMP2"
+		(property "Value" "TSMP+"
 			(at 129.54 36.8299 0)
 			(effects
 				(font
