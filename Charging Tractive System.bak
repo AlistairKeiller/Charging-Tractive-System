@@ -409,7 +409,7 @@
 		(symbol "Orion_2_0_1"
 			(rectangle
 				(start 0 0)
-				(end 22.86 -16.51)
+				(end 22.86 -15.24)
 				(stroke
 					(width 0)
 					(type default)
