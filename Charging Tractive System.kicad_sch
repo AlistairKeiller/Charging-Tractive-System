@@ -1711,6 +1711,17 @@
 		)
 		(uuid b404db2b-8078-44b9-8b75-bbe2409cab7a)
 	)
+	(label "Signal Cable Wire Size: 8 AWG"
+		(at 151.13 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b02f8cf-c31d-4d48-9a36-84ce0cc5be95")
+	)
 	(label "HV Cable Wire Size: 8 AWG"
 		(at 151.13 34.29 0)
 		(fields_autoplaced yes)
