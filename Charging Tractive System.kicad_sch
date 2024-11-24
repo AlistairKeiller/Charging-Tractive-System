@@ -1339,7 +1339,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 50.8) (xy 162.56 50.8)
+			(xy 118.11 50.8) (xy 162.56 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1359,7 +1359,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 48.26) (xy 161.29 48.26)
+			(xy 118.11 48.26) (xy 162.56 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1506,16 +1506,6 @@
 			(type default)
 		)
 		(uuid "88f44251-887d-4545-890e-aff7fd8af35e")
-	)
-	(wire
-		(pts
-			(xy 161.29 48.26) (xy 161.29 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8efcba23-f04f-4b31-aa90-a38dbb5b88c4")
 	)
 	(wire
 		(pts
@@ -1809,7 +1799,7 @@
 	)
 	(global_label "HVBattery"
 		(shape input)
-		(at 104.14 44.45 0)
+		(at 104.14 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1819,7 +1809,7 @@
 		)
 		(uuid "9cc515ff-b582-46c7-b675-efd11c88f881")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.2571 44.45 0)
+			(at 116.2571 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
